@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+packet:          git< status=success
+packet:          git< 0000
+packet:          git< SMUDGED_CONTENT
+packet:          git< 0000
+packet:          git< 0000  # empty list, keep "status=success" unchanged!
